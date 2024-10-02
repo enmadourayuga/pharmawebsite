@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedStore</title>
-    <link rel="stylesheet" href="StyleSheet1.css">
+  <title>Simple Website Layout</title>
+  <style>
+    body {
+      background-image: url("your-background-image.jpg"); /* Replace with your image path */
+      background-size: cover;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .logo {
+      height: 50px;
+      width: 50px;
+      margin-right: 20px;
+    }
+  </style>
 </head>
 <body>
-    <section id="header">
-        <a href="#"><img src="src/logo.png" class="logo" alt="" /></a>
-    </section>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="your-logo.png" alt="Logo">
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <script src="script.js"></script>
-</body>
+  </body>
 </html>
