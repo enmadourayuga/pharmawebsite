@@ -1,0 +1,89 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Spartan');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: white;
+    align-self:center;
+    padding:20px;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: white;
+    align-self: center;
+}
+h3 {
+    font-size: 42px;
+    line-height: 44px;
+    color: black;
+}
+p{
+    font-size: 16px;
+    color: black;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.mainpic{
+    width:480px;
+    padding: 40px;
+}
+.logo{
+    width: 70px;
+    padding:10px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: darkgrey;
+        font-weight: bold;
+        transition: color 0.5s ease-in-out;
+    }
+
+    nav ul li a:hover {
+        color: white;
+        transition: color 0.5s ease-in-out;
+    }
+.main{
+    padding:10px 10%;
+}
+.about {
+    background-color: dimgrey;
+    text-align: center;
+    padding: 40px 20px; 
+    color: white;
+}
