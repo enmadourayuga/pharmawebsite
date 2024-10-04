@@ -1,60 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple Website Layout</title>
-  <style>
-    body {
-      background-image: url("assets/bg.jpg"); /* Replace with your image path */
-      background-size: cover;
-    }
-
-    header {
-      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-      padding: 20px;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav li {
-      display: inline-block;
-      margin-right: 20px;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
-
-    .logo {
-      height: 50px;
-      width: 50px;
-      margin-right: 20px;
-      position: relative;
-      z-index: 1;
-    }
-  </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Med Store</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="header">
+        <nav>
+            <img src="src/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <nav>
+                <img src="src/bg.jpg" class="mainpic">
+                <h1>Hello <br> This is smtg<br></h1>
+            </nav>
+        </div>
+    </div> <!-- End of header -->
+    <!-- Move about section outside of the header -->
+    <section class="about">
+        <h3>About the company</h3>
+        <p>We are a company dedicated to providing innovative solutions...</p>
+    </section>
 
-  </body>
+</body>
 </html>
